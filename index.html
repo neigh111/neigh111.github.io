@@ -2,11 +2,63 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Doubtly - ダウトリー</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: #f0f0f0;
+      text-align: center;
+    }
+    header {
+      padding: 2rem;
+      background: linear-gradient(90deg, #6a11cb, #2575fc);
+      color: white;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    p {
+      margin: 1rem 0;
+      font-size: 1.2rem;
+    }
+    .screenshot {
+      margin: 2rem auto;
+      max-width: 300px;
+      border-radius: 1rem;
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    }
+    .buttons a {
+      display: inline-block;
+      margin: 1rem;
+      padding: 1rem 2rem;
+      border-radius: 8px;
+      font-size: 1.1rem;
+      text-decoration: none;
+      color: white;
+    }
+    .appstore {
+      background-color: #2575fc;
+    }
+    .support {
+      background-color: #6a11cb;
+    }
+  </style>
 </head>
 <body>
-  <h1>Doubtly（ダウトリー）</h1>
-  <p>このページはアプリ Doubtly の公式サポート用サイトです。</p>
-  <p>お問い合わせは <a href="https://neigh111.github.io/doubtly-support/">こちら</a> からどうぞ。</p>
+  <header>
+    <h1>Doubtly - ダウトリー</h1>
+    <p>「真実」か「嘘」かを見極める、投票型SNSアプリ</p>
+  </header>
+
+  <img src="screenshot.png" alt="アプリ画面" class="screenshot">
+
+  <div class="buttons">
+    <a href="https://apps.apple.com/jp/app/ここにAppStoreリンク" class="appstore">App Storeで入手</a>
+    <a href="https://neigh111.github.io/doubtly-support/" class="support">サポートページ</a>
+  </div>
 </body>
 </html>
